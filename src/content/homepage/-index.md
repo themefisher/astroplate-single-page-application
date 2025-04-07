@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "The Ultimate Starter Template With Single Page Application Implementation You Need To Start Your Astro Project"
+  content: "To see single page application implementation head over to Dashboard"
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/astroplate"
+    label: "SPA Dashboard"
+    link: "/dashboard"
 
 # Features
 features:

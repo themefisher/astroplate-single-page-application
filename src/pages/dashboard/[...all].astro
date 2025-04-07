@@ -1,0 +1,10 @@
+---
+import App from "@/components/functional/App";
+import Base from "@/layouts/Base.astro";
+
+export const prerender = false;
+---
+
+<Base title="SPA Dashboard">
+  <App client:only="react" />
+</Base>

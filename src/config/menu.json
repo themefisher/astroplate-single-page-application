@@ -5,12 +5,12 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Dashboard",
+      "url": "/dashboard"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "About",
+      "url": "/about"
     },
     {
       "name": "Pages",

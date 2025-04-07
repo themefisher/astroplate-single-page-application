@@ -1,131 +1,65 @@
-<h1 align=center>Astro + Tailwind CSS + TypeScript Starter and Boilerplate</h1>
+# Astroplate Single Page Application
 
-<p align=center>Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript, providing everything you need to jumpstart your Astro project and save valuable time.</p>
+Astroplate Single Page Application is an Astro and TailwindCSS boilerplate that serves as a comprehensive starter template for building modern, content-focused websites. This project integrates React's Single Page Application (SPA) system into an Astro project, providing the benefits of both Astro's static site generation and React's dynamic rendering capabilities.
 
-<p align=center>Made with ♥ by <a href="https://zeon.studio/">Zeon Studio</a></p>
+## Features
 
-<p align=center> If you find this project useful, please give it a ⭐ to show your support. </p>
+- **Astro Framework**: Build high-performance, content-centric websites using the Astro framework.
+- **Single Page Application**: Implemented React's SPA system for dynamic and seamless user experiences.
+- **Tailwind CSS**: Styled with Tailwind CSS for easy and customizable styling.
+- **Responsive Design**: Fully responsive design, ensuring compatibility with all devices.
+- **SEO Optimized**: Engineered for better search engine rankings.
+- **Open Source**: Free for both personal and commercial use.
 
-<h2 align="center"> <a target="_blank" href="https://astroplate.netlify.app/" rel="nofollow">👀 Demo</a> | <a target="_blank" href="https://astroplate-multilang.netlify.app/" rel="nofollow">👀 Demo Multilang</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astroplate-netlify-app/yzx3foum3w?form_factor=desktop">Page Speed (100%)🚀</a>
-</h2>
+## Installation
 
-<p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%405.5.4">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.5&color=000&logo=astro"  alt="Astro Version 5.5"/>
-  </a>
+1. **Clone the Repository**:
 
-  <a href="https://github.com/zeon-studio/astroplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/astroplate" alt="license"></a>
+   ```sh
+   git clone https://github.com/themefisher/astroplate-single-page-application.git
+   ```
 
-  <img src="https://img.shields.io/github/languages/code-size/zeon-studio/astroplate" alt="code size">
+2. **Navigate to the Project Directory**:
 
-  <a href="https://github.com/zeon-studio/astroplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/astroplate" alt="contributors"></a>
-</p>
+   ```sh
+   cd astroplate-single-page-application
+   ```
 
-## 📌 Key Features
+3. **Install Dependencies**:
+   ```sh
+   yarn install
+   ```
 
-- 👥 Multi-Authors
-- 🌐 Multilingual
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown / MDX
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
+## Usage
 
-### 📄 15+ Pre-designed Pages
+- **Development**: Start the development server:
 
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
+  ```sh
+  yarn dev
+  ```
 
-## 🔗 Integrations
+- **Build**: Build the project for production:
 
-- astro/react
-- astro/sitemap
-- astro/tailwind
+  ```sh
+  yarn build
+  ```
 
-## 🚀 Getting Started
+- **Preview**: Preview the production build:
+  ```sh
+  yarn preview
+  ```
 
-### 📦 Dependencies
+## Contributing
 
-- astro v5.5+
-- node v20.10+
-- yarn v1.22+
-- tailwind v4+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### 👉 Install Dependencies
+## License
 
-```bash
-yarn install
-```
+This project is licensed under the MIT License.
 
-### 👉 Development Command
+## Acknowledgements
 
-```bash
-yarn run dev
-```
+This project is a part of a blog post from [Themefisher](https://www.themefisher.com) and serves as a demonstration of integrating React SPA into an Astro project.
 
-### 👉 Build Command
-
-```bash
-yarn run build
-```
-
-### 👉 Build and Run With Docker
-
-```bash
-docker build -t astroplate .
-# or
-# docker --build-arg INSTALLER=npm build -t astroplate .
-# or
-# docker --build-arg INSTALLER=pnpm build -t astroplate .
-
-docker run -p 3000:80 astroplate
-# or
-# docker run --rm -p 3000:80 astroplate
-```
-
-To access the shell within the container:
-
-```bash
-docker run -it --rm astroplate ash
-```
-
-<!-- reporting issue -->
-
-## 🐞 Reporting Issues
-
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/astroplate/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/astroplate/issues).
-
-<!-- licence -->
-
-## 📝 License
-
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
-
-**Code License:** Released under the [MIT](https://github.comzeon-studio/astroplate/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
-
-## 💻 Need Custom Development Services?
-
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/).
+For more details, visit the [How to Build Single Page Application (SPA) with Astro
+](https://themefisher.com/spa-with-astrojs).
