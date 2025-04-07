@@ -59,7 +59,8 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements
 
-This project is a part of a blog post from [Themefisher](https://www.themefisher.com) and serves as a demonstration of integrating React SPA into an Astro project.
+This project is based on [Astroplate](https://github.com/zeon-studio/astroplate), a modern and responsive Astro template optimized for speed, SEO, and content-focused websites. Built with Tailwind CSS, Astroplate offers full customization to meet diverse project requirements.
 
-For more details, visit the [How to Build Single Page Application (SPA) with Astro
-](https://themefisher.com/spa-with-astrojs).
+Additionally, this project is featured in a blog post by [Themefisher](https://www.themefisher.com), showcasing how to integrate React's Single Page Application (SPA) capabilities into an Astro project.
+
+For a detailed guide, check out the blog post: [How to Build Single Page Application (SPA) with Astro](https://themefisher.com/spa-with-astrojs).
